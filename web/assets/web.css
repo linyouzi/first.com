@@ -1,0 +1,274 @@
+/*top*/
+
+/*ck*/
+body {
+    font-family: "微軟正黑體";
+    background-color: #232946;
+  }
+  
+  .ck {
+    position: relative;
+    z-index: 0;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    display: flex;
+    margin-top: -10px;
+  }
+  
+  header {
+    z-index: 1;
+    position: fixed;
+    border-radius: 0px;
+    width: 300px;
+    top: 0px;
+    bottom: 0%;
+    background-color: #bae8e8;
+    float: left;
+  }
+  
+  .pic img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+  }
+  
+  .pic img:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .content {
+    position: relative;
+    margin-left: 300px;
+    padding: 10px;
+  }
+  
+  .photo {
+    position: relative;
+    width: 70%;
+    top: 30px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+  }
+  
+  .contact {
+    position: relative;
+    top: 7%;
+    left: 5%;
+  }
+  
+  .name {
+    font-size: 30px;
+    text-align: center;
+    color: #666666;
+    word-spacing: 5px;
+    writing-mode: vertical-rl;
+    padding: 15px;
+  }
+  
+  .social {
+    position: relative;
+    margin-left: 15px;
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .icon {
+    position: relative;
+    top: 7%;
+    padding: 10px;
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    color: #444444;
+    width: fit-content; 
+}
+
+  
+  .quote {
+    position: relative;
+    width: 240px;
+    bottom: -12%;
+    padding: 10px;
+    padding-left: 17%;
+    display: flex;
+    font-size: 22px;
+    text-align: left;
+    background-color: #F5F5F5;
+    font-style: italic;
+  }
+
+  /*edu*/
+  .edu {
+    position: relative;
+    float: left;
+    padding: 20px;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border: black solid 3px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+    float: left;
+  }
+  
+  .line {
+    width: 3px;
+    height: 50px;
+    background-color: black;
+    float: left;
+    margin: 6px;
+  }
+  
+  .cl {
+    position: absolute;
+    left: 40px;
+    z-index: 1;
+    background-color: white;
+    margin-top: 5px;
+  }
+  
+  .school {
+    font-size: 18px;
+  }
+
+  /*exp*/
+  .exp {
+    position: relative;
+    float: left;
+    padding: 20px;
+    width: 840px;
+  }
+  
+  .titleExp {
+    position: relative;
+    font-size: 28px;
+    padding: 10px;
+    text-align: center;
+    margin: 15px 30px;
+    background-color: #faeee7;
+    width: 90%;
+    border-radius: 10px;
+    color: #33272a;
+    float: left;
+  }
+  
+  .pic2 {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: #DCDCDC solid 5px;
+  }
+  
+  .pic2 img {
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+  }
+  
+  .pic2 img:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .pictxt {
+    margin: 15px 30px;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+  }
+  
+  .txtExp {
+    color: #fffffe;
+    font-size: 18px;
+    padding: 20px;
+  }
+  .pr{
+    position: relative;
+    margin-left: 15px;
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /*skill*/
+  .skill {
+    position: relative;
+    float: left;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 30px;
+  }
+  
+  .titleE {
+    font-size: 18px;
+  }
+  
+  .bar {
+    display: flex;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 15px;
+  }
+  
+  .barItem {
+    width: 130px;
+    text-align: right;
+  }
+  
+  .barBack {
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    border: #D3D3D3 solid 0px;
+    margin-left: 10px;
+    background-color: #94a1b2;
+    overflow: hidden;
+  }
+  
+  .barIn {
+    height: 90%;
+    border-radius: 10px;
+    border: #b8c1ec solid 1px;
+    background: #b8c1ec;
+    animation: load 3s ease-in;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0%;
+    }
+  
+    100% {}
+  }
+
+  /*footer*/
+  footer {
+    position: relative;
+    background-color: #faeee7;
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    z-index: -1;
+    margin-bottom: -10px;
+  }
+  
+  .foot {
+    margin-left: 300px;
+    padding: 15px;
+    color: #594a4e;
+    font-size: 16px;
+    text-align: center;
+  }
